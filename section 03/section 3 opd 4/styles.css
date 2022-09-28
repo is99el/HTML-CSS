@@ -1,0 +1,41 @@
+h1 {
+  color: green;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+h2 {
+  color: red;
+  font-family: monospace;
+}
+
+p {
+  color: blue;
+}
+
+h3 {
+  font-family: monospace;
+  font-size: 20px;
+  color: blue;
+}
+
+h4 {
+  color: green;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+img {
+  margin-left: 80px;
+}
+a {
+  color: blue;
+  font-size: 15px;
+}
+
+h5 {
+  margin-top: 60px;
+  font-size: 100px;
+  font-family: monospace;
+  color: green;
+}
