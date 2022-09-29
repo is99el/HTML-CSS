@@ -1,13 +1,92 @@
+body {
+  font-family: monospace;
+}
+
 h1 {
   color: green;
-  font-family: monospace;
+  position: absolute;
   padding-left: 100px;
+  padding-top: 0%;
 }
 
 h2 {
+  position: absolute;
   color: green;
-  font-family: monospace;
   font-size: 25px;
+  padding-top: 0%;
+  padding-left: 1250px;
+}
 
-  padding-left: 1150px;
+h3 {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  padding-top: 27px;
+  padding-left: 1250px;
+}
+
+h4 {
+  position: absolute;
+  color: green;
+  font-size: 30px;
+  padding-top: 38%;
+  padding-left: 100px;
+}
+
+h5 {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 770px;
+}
+
+h6 {
+  position: absolute;
+  color: green;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-left: 100px;
+  margin-top: 950px;
+}
+
+p1 {
+  color: green;
+  position: absolute;
+  padding-left: 1250px;
+  margin-right: 0%;
+  padding-right: 15%;
+  padding-top: 70px;
+}
+
+p {
+  position: absolute;
+  color: green;
+  padding-top: 43%;
+  margin-right: 40%;
+  padding-left: 100px;
+}
+div.eerste {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 980px;
+}
+div.tweede {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 980px;
+}
+
+svg {
+  position: inherit;
+  margin-left: 5%;
+  padding-top: 50px;
+}
+
+img {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 12%;
+  width: 400px;
+  height: 400px;
 }
