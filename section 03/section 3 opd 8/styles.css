@@ -1,0 +1,123 @@
+body {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.one {
+  position: absolute;
+  padding-left: 280px;
+  padding-top: 100px;
+
+  background-color: rgb(243, 255, 10);
+  height: absolute;
+  height: 170px;
+  width: 500px;
+}
+
+.two {
+  position: absolute;
+  padding-left: 280px;
+  padding-top: 100px;
+
+  background-color: rgb(249, 6, 6);
+  height: absolute;
+  margin-left: 630px;
+  height: 170px;
+  width: 500px;
+}
+
+.three {
+  position: absolute;
+  padding-left: 280px;
+  padding-top: 100px;
+
+  background-color: rgb(31, 2, 251);
+  height: absolute;
+  margin-left: 1260px;
+
+  height: 170px;
+  width: 500px;
+}
+
+.four {
+  position: absolute;
+  color: gray;
+
+  margin-top: 270px;
+  padding-left: 280px;
+  padding-top: 70px;
+
+  background-color: rgb(20, 252, 4);
+  height: absolute;
+  height: 200px;
+  width: 350px;
+}
+
+.five {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 270px;
+  line-height: 3;
+  padding-left: 270px;
+  padding-top: 30px;
+
+  background-color: rgb(21, 245, 193);
+  height: absolute;
+  margin-left: 630px;
+  height: 240px;
+  width: 360px;
+}
+
+.six {
+  position: absolute;
+  margin-top: 270px;
+  padding-left: 280px;
+  padding-top: 70px;
+
+  background-color: rgb(181, 10, 228);
+  height: absolute;
+  margin-left: 1260px;
+
+  height: 200px;
+  width: 500px;
+}
+
+.seven {
+  position: absolute;
+  margin-top: 540px;
+
+  padding-left: 280px;
+  padding-top: 100px;
+
+  background-color: rgb(89, 90, 89);
+  height: absolute;
+  height: 200px;
+  width: 500px;
+}
+
+.eight {
+  position: absolute;
+  margin-top: 540px;
+  padding-left: 280px;
+  padding-top: 100px;
+
+  background-color: rgb(247, 46, 186);
+  height: absolute;
+  margin-left: 630px;
+  height: 200px;
+  width: 350px;
+}
+
+.nine {
+  position: absolute;
+  margin-top: 540px;
+  padding-left: 280px;
+  padding-top: 100px;
+
+  background-color: rgb(252, 142, 17);
+  height: absolute;
+  margin-left: 1260px;
+
+  height: 200px;
+  width: 500px;
+}
