@@ -1,0 +1,108 @@
+html {
+  background-color: black;
+  font-size: 40px;
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+}
+.main-nav {
+  font-size: 12px;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.main-nav li {
+  position: absolute;
+  display: inline-block;
+}
+.main-nav li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+.home {
+  background-color: green;
+  text-align: center;
+  padding-left: 5px;
+  padding-top: 10px;
+
+  height: 20px;
+  width: 150px;
+}
+
+.traningen {
+  background-color: rgb(214, 250, 71);
+  text-align: center;
+  margin-left: 178px;
+  padding-left: 5px;
+  padding-top: 10px;
+
+  height: 21px;
+  width: 150px;
+}
+
+.colsuntancy {
+  background-color: rgb(254, 20, 20);
+  text-align: center;
+  margin-left: 357px;
+  padding-left: 5px;
+  padding-top: 10px;
+
+  height: 21px;
+  width: 150px;
+}
+
+.producten {
+  background-color: rgb(22, 29, 251);
+  text-align: center;
+  margin-left: 530px;
+  padding-left: 5px;
+  padding-top: 10px;
+
+  height: 21px;
+  width: 150px;
+}
+
+.timeline {
+  background-color: green;
+  text-align: center;
+  margin-left: 705px;
+  padding-left: 5px;
+  padding-top: 10px;
+
+  height: 21px;
+  width: 150px;
+}
+
+.herders {
+  background-color: rgb(248, 255, 41);
+  text-align: center;
+  margin-left: 880px;
+  padding-left: 5px;
+  padding-top: 10px;
+
+  height: 21px;
+  width: 150px;
+}
+
+.over-ons {
+  background-color: rgb(246, 52, 13);
+  text-align: center;
+  margin-left: 1055px;
+  padding-left: 5px;
+  padding-top: 10px;
+
+  height: 21px;
+  width: 150px;
+}
+
+.contact {
+  background-color: rgb(45, 17, 255);
+  text-align: center;
+  margin-left: 1230px;
+  padding-left: 5px;
+  padding-top: 10px;
+
+  height: 21px;
+  width: 150px;
+}
