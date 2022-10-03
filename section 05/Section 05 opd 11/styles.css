@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.f {
+  float: left;
+  background-image: url(9056a4b8111f573a4d092c7208bb8bbf.jpg);
+  background-size: cover;
+  height: 20vh;
+  width: 25%;
+}
+.o {
+  float: left;
+  background-image: url(csm_suedchinesischer-tiger-WW181875-c-John-Mackinnon-WWF_9b8485f071.jpg);
+  background-size: cover;
+  height: 20vh;
+  width: 25%;
+}
+.t {
+  float: left;
+  background-image: url(tiger-2535888_1280wasser.jpg);
+  background-size: cover;
+  height: 20vh;
+  width: 25%;
+}
+
+.oo {
+  /* position: absolute; */
+  margin-left: 75%;
+  background-image: url(tigers-roads-railways-national-park-1600.jpg);
+  background-size: cover;
+  height: 40vh;
+  width: 25%;
+}
