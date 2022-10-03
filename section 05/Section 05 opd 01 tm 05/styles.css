@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-image: url(img/bengaalse-tijger-koppel.webp);
+  background-size: cover;
+  height: 100vh;
+  /* height: 50vh; */
+}
+
+h1 {
+  color: green;
+  position: absolute;
+  top: 95%;
+  right: 0%;
+}
