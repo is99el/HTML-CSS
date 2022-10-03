@@ -1,20 +1,10 @@
-html {
-  background-color: rgb(82, 4, 134);
-  font-size: 40px;
-  font-weight: 200;
-  text-rendering: optimizeLegibility;
-}
-.main-nav {
-  font-size: 12px;
-  list-style: none;
-  margin-top: 30px;
-  margin-left: 20%;
-  /* margin-right: 20%; */
-}
-
 .main-nav li {
-  position: absolute;
-  /* display: inline-block; */
+  margin-left: 4%;
+  margin-right: 4%;
+  display: inline-block;
+  padding-top: 10px;
+  width: 100px;
+  height: 30px;
 }
 .main-nav li a {
   color: black;
@@ -24,86 +14,39 @@ html {
 .home {
   background-color: green;
   text-align: center;
-  margin-left: 0%;
-  padding-top: 10px;
-
-  height: 20px;
-  width: 6%;
 }
 
 .traningen {
   background-color: rgb(214, 250, 71);
   text-align: center;
-  margin-left: 7%;
-
-  padding-top: 10px;
-
-  height: 20px;
-  width: 6%;
 }
 
 .colsuntancy {
   background-color: rgb(254, 20, 20);
   text-align: center;
-  margin-left: 14%;
-
-  padding-top: 10px;
-
-  height: 20px;
-  width: 6%;
 }
 
 .producten {
   background-color: rgb(22, 29, 251);
   text-align: center;
-  margin-left: 21%;
-
-  padding-top: 10px;
-
-  height: 20px;
-  width: 6%;
 }
 
 .timeline {
   background-color: green;
   text-align: center;
-  margin-left: 28%;
-
-  padding-top: 10px;
-
-  height: 20px;
-  width: 6%;
 }
 
 .herders {
   background-color: rgb(248, 255, 41);
   text-align: center;
-  margin-left: 35%;
-
-  padding-top: 10px;
-
-  height: 20px;
-  width: 6%;
 }
 
 .over-ons {
   background-color: rgb(246, 52, 13);
   text-align: center;
-  margin-left: 42%;
-
-  padding-top: 10px;
-
-  height: 20px;
-  width: 6%;
 }
 
 .contact {
   background-color: rgb(45, 17, 255);
   text-align: center;
-  margin-left: 49%;
-
-  padding-top: 10px;
-
-  height: 20px;
-  width: 6%;
 }
