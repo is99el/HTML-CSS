@@ -25,10 +25,9 @@
 }
 
 .oo {
-  /* position: absolute; */
   margin-left: 75%;
   background-image: url(tigers-roads-railways-national-park-1600.jpg);
   background-size: cover;
-  height: 40vh;
+  height: 20vh;
   width: 25%;
 }
