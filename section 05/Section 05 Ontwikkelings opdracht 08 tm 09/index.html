@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="vendors/css/grid.css" />
+    <link rel="stylesheet" href="resources/css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="background"></header>
+
+    <section class="Contactformulier">
+      <div class="row">
+        <h2>Contactformulier</h2>
+      </div>
+      <div class="row">
+        <form method="post" action="#" class="Contactformulier-form">
+          <div class="row">
+            <div class="Text">
+              <label>Naam</label>
+            </div>
+            <div class="Field">
+            <input
+              type="text"
+              name="naam"
+              id="naam"
+              placeholder="Schrijf je naam!"
+              required
+            />
+          </div>
+        </div>
+          <div class="row">
+            <form method="post" action="#" class="Contactformulier-form">
+            <div class = "row">
+              <div class="Text">
+                <label>Email</label>
+    
+              </div>
+              <div class="Field">
+              <input type="email" name="Email" id="Email" placeholder="Schrijf je email!" required>
+            </div>
+           </div>
+            <div class="row">
+              <form method="post" action="#" class="Contactformulier-form">
+              <div class = "row">
+                <div class="Text">
+                  <label>Wachtwoord</label>
+      
+                </div>
+                <div class="Wachtwoord">
+                <input type="password" name="Wachtwoord" id="Wachtwoord" placeholder="Schrijf je wachtwoord!" required>
+      
+      
+              </div>
+            </div>
+              <div class="row">
+                <form method="post" action="#" class="Contactformulier-form">
+                <div class = "row">
+                  <div class="Text">
+                    <label>Geslacht</label>
+        
+                  </div>
+                  <div class="GG">
+                  <select name="Geslacht" id="Geslacht">
+                  
+                  <option value="Man">Man</option>
+                  <option value="Vrouw">Vrouw</option>
+                </select>
+              </div>
+                </div>
+                <div class = "row">
+                  <div class="Text">
+                    <label>Media</label>
+        
+                  </div>
+                  <div class="Field">
+                
+                  <input type="checkbox" name="media" id="Media" >Nieuwsbrief 
+                  <input type="checkbox" name="media" id="Media" >Mailing 
+
+                  <input type="checkbox" name="media" id="Media" >Post
+                </div>
+                </div>
+
+                <button>Stuur me op!</button>
+               
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

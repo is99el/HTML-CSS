@@ -1,0 +1,64 @@
+* {
+  margin-left: 0;
+  padding: 0;
+}
+.background {
+  background-image: url(/resources/img/tigerachter.jpeg);
+  background-size: cover;
+  background-position-y: 40%;
+  height: 45vh;
+}
+
+.Text {
+  margin-top: 20px;
+  margin-left: 30%;
+
+  display: inline-flex;
+}
+.Field {
+  display: inline-block;
+  margin-left: 14.2%;
+}
+
+.Wachtwoord {
+  display: inline-flex;
+  margin-left: 12%;
+}
+
+h2 {
+  font-size: 70px;
+  margin-left: 30%;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+button {
+  position: absolute;
+  font-size: 15px;
+  margin-top: 3%;
+  margin-left: 30%;
+  width: 120px;
+  height: 35px;
+  stroke-width: 2px;
+  background-color: rgb(171, 171, 171);
+  opacity: 80%;
+  border-color: orange;
+  border-style: solid;
+}
+
+@media only screen and (max-width: 650px) {
+  .Text {
+    margin-left: 14%;
+    margin-right: 42%;
+  }
+  .row {
+    margin-left: 0%;
+  }
+  .Wachtwoord {
+    margin-left: 14%;
+  }
+
+  h2 {
+    margin-left: 12%;
+  }
+}
