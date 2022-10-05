@@ -17,14 +17,21 @@
 }
 .Field {
   display: inline-block;
-  margin-left: 14.2%;
+  margin-left: 13.9%;
 }
 
 .Wachtwoord {
   display: inline-flex;
-  margin-left: 12%;
+  margin-left: 12.1%;
 }
-
+.GG {
+  display: inline-flex;
+  margin-left: 13.3%;
+}
+.Media {
+  width: 69px;
+  margin-left: 46.3%;
+}
 h2 {
   font-size: 70px;
   margin-left: 30%;
@@ -56,6 +63,14 @@ button {
   }
   .Wachtwoord {
     margin-left: 14%;
+  }
+  .GG {
+    margin-left: 13.9%;
+    display: flex;
+  }
+  .Media {
+    margin-top: 5px;
+    margin-left: 14.3%;
   }
 
   h2 {
