@@ -1,0 +1,6 @@
+header {
+  background-image: url(/Tiger_shutterstock.jpeg);
+  height: 98vh;
+
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 10%);
+}
