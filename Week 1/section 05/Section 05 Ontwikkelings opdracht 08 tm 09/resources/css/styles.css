@@ -12,7 +12,7 @@
 .Text {
   margin-top: 20px;
   margin-left: 30%;
-
+  font-size: 30px;
   display: inline-flex;
 }
 .Field {
@@ -22,15 +22,15 @@
 
 .Wachtwoord {
   display: inline-flex;
-  margin-left: 12.1%;
+  margin-left: 9.7%;
 }
 .GG {
   display: inline-flex;
-  margin-left: 13.3%;
+  margin-left: 12.2%;
 }
 .Media {
   width: 69px;
-  margin-left: 46.3%;
+  margin-left: 48%;
 }
 h2 {
   font-size: 70px;
