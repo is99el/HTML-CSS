@@ -1,0 +1,12 @@
+header {
+  background-image: url(/snow.jpg);
+  background-position: center;
+  height: 98vh;
+}
+
+body {
+  background-size: cover;
+  position: static;
+  background-image: url(/Tiger_shutterstock.jpeg);
+  clip-path: inset(35% 15% 50% 60%);
+}
