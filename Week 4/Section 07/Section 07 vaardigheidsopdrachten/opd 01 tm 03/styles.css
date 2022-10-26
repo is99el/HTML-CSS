@@ -7,13 +7,18 @@
   display: flex;
   border-style: solid;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex-child {
+  display: flex;
   flex-basis: 350px;
   height: 270px;
   font-size: 30px;
   border: 2px solid green;
+
+  align-items: center;
+  justify-content: center;
 }
 #yellow {
   background-color: yellow;
