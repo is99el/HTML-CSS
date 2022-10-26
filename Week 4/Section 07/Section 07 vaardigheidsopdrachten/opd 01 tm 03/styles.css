@@ -1,0 +1,30 @@
+* {
+  /* margin: 5;
+  padding: 0; */
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  border-style: solid;
+  flex-wrap: wrap;
+}
+
+.flex-child {
+  flex-basis: 350px;
+  height: 270px;
+  font-size: 30px;
+  border: 2px solid green;
+}
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#purple {
+  background-color: purple;
+}
