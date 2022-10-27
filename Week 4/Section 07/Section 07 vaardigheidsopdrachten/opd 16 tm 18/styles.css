@@ -1,5 +1,5 @@
 * {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 .container {
   display: flex;
@@ -35,6 +35,10 @@
 #redz {
   background-color: red;
   /* flex-grow: 1; */
+}
+#purplez {
+  background-color: purple;
+  height: 30px;
 }
 
 @media only screen and (max-width: 900px) {
