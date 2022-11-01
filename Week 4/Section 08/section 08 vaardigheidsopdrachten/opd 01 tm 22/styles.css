@@ -1,0 +1,100 @@
+.container {
+  display: grid;
+  background-color: bisque;
+  width: 1000px;
+  height: 700px;
+  margin: 30px auto;
+  border-style: solid;
+
+  row-gap: 30px;
+  column-gap: 30px;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: repeat(2, 200px) 1fr;
+  /*opd1*/
+  /* grid-template-rows: repeat(6, 200px); */
+
+  /*opd2*/
+  /* grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(2, 1fr);*/
+
+  /*opd3*/
+  /* grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 600px); */
+
+  /*opd4*/
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 200px); */
+
+  /*opd5*/
+  /* grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 400px); */
+
+  /*opd6*/
+  /* grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 200px); */
+
+  /*opd7*/
+  /* grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(2, 100px);
+ */
+
+  /* opd8
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-row-gap: 40px; */
+}
+.item--item1 {
+  display: flex;
+  background-color: yellow;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+
+  grid-row: 2/4;
+}
+.item--item2 {
+  display: grid;
+  background-color: pink;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1;
+  grid-row: 1/2;
+}
+.item--item3 {
+  display: grid;
+  background-color: red;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+  grid-row: 1/2;
+}
+.item--item4 {
+  display: grid;
+  background-color: blue;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.item--item5 {
+  display: grid;
+  background-color: purple;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.item--item6 {
+  display: grid;
+  background-color: green;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item--item7 {
+  display: grid;
+  background-color: rgb(33, 241, 249);
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+}
