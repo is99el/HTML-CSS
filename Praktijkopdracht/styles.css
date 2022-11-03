@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  height: 100px;
+}
+header #logo {
+  display: flex;
+  cursor: pointer;
+}
+.navegation {
+  display: flex;
+  margin-left: 30%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li {
+  display: flex;
+  margin: 30px;
+}
+i {
+  margin-right: 10px;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: 200;
+  text-transform: uppercase;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: green;
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  transition: 0.5s;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+.banner {
+  background-image: url(vendors/images/background3.jpg);
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.content h1 {
+  font-size: 40px;
+  color: white;
+}
+.content p {
+  font-size: 20px;
+}
+
+button {
+  width: 200px;
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid green;
+  margin: 20px 10px;
+  padding: 15px;
+  background: transparent;
+  cursor: grabbing;
+  color: white;
+  /* font-size: 20px; */
+}
