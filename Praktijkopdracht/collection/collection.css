@@ -59,7 +59,7 @@ a:hover::after {
 }
 
 .banner {
-  background-image: url(/vendors/images/background3.jpg);
+  background-image: url(../vendors/images/background3.jpg);
   height: 100vh;
 
   background-repeat: no-repeat;
