@@ -210,7 +210,7 @@ footer h3 {
 .footer-3 {
   justify-content: space-between;
   margin-left: 30%;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .footer-3 h4 {
@@ -218,7 +218,7 @@ footer h3 {
   margin-bottom: 30px;
 }
 .footer-3 p {
-  height: 40px;
+  height: 50px;
 }
 
 #footerr {
@@ -227,8 +227,11 @@ footer h3 {
   background-color: rgb(253, 253, 253);
   opacity: 70%;
 }
+span {
+  font-weight: 900;
+}
 
-@media screen and (max-width: 500px) {
+@media only screen and (min-width: 320px) and (max-width: 500px) {
   ul {
     margin-right: 210px;
   }
@@ -236,9 +239,6 @@ footer h3 {
     margin: 19px;
   }
 
-  .container {
-    max-width: 300px;
-  }
   .contact-box {
     grid-template-columns: 1fr;
     max-width: 600px;
@@ -273,20 +273,53 @@ footer h3 {
   .footer-3 h4 {
     margin-left: 29%;
   }
+}
+@media screen and (min-device-width: 500px) and (max-device-width: 1024px) {
+  ul {
+    margin-right: 100px;
+  }
+  li {
+    margin: 19px;
+  }
 
-  .card {
-    width: 100px;
-    height: 100px;
+  .contact-box {
+    grid-template-columns: 1fr;
+    max-width: 300px;
   }
-  .container {
-    row-gap: 30px;
-    column-gap: 30px;
+  .left {
+    height: 200px;
   }
-  .card-back h1 {
-    font-size: 10px;
+  .footer-1 {
+    margin: 0;
   }
-  .card-back p {
-    font-size: 9px;
-    margin-top: 40px;
+  .footer-1 img {
+    margin-left: 0;
+  }
+
+  .footer-2 {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+    margin-left: 0;
+  }
+  .footer-2 h4 {
+    position: absolute;
+    margin-left: 108px;
+    margin-top: 5px;
+  }
+  .footer-2 p {
+    margin-top: 90px;
+    margin-left: 40px;
+  }
+
+  .footer-3 {
+    margin-top: 29px;
+  }
+  .footer-3 h4 {
+    margin-left: 20%;
+  }
+  .footer-3 p {
+    width: 300px;
   }
 }

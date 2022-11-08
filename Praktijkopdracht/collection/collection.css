@@ -238,12 +238,8 @@ span {
 }
 
 @media screen and (max-width: 500px) {
-  header {
-    max-width: 300px;
-  }
-
   ul {
-    margin-right: 30px;
+    margin-right: 200px;
   }
   li {
     margin: 19px;
@@ -290,5 +286,54 @@ span {
   .card-back p {
     font-size: 9px;
     margin-top: 40px;
+  }
+}
+@media screen and (min-device-width: 500px) and (max-device-width: 1024px) {
+  header {
+    max-width: 300px;
+  }
+  ul {
+    margin-right: 100px;
+  }
+  li {
+    margin: 19px;
+  }
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+  .footer-1 {
+    margin: 0;
+  }
+  .footer-1 img {
+    margin-left: 0;
+  }
+
+  .footer-2 {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+    margin-left: 0;
+  }
+  .footer-2 h4 {
+    position: absolute;
+    margin-left: 108px;
+    margin-top: 5px;
+  }
+  .footer-2 p {
+    margin-top: 90px;
+    margin-left: 40px;
+  }
+
+  .footer-3 {
+    margin-top: 29px;
+  }
+  .footer-3 h4 {
+    margin-left: 20%;
+    margin-bottom: 60px;
+  }
+  .footer-3 p {
+    width: 300px;
   }
 }
