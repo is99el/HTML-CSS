@@ -173,3 +173,43 @@ footer h3 {
   background-color: rgb(253, 253, 253);
   opacity: 70%;
 }
+@media screen and (max-width: 500px) {
+  header {
+    max-width: 300px;
+  }
+
+  ul {
+    margin-right: 30px;
+  }
+  li {
+    margin: 19px;
+  }
+
+  .footer-1 img {
+    margin-left: 16%;
+  }
+  .footer-1 p {
+    margin-left: 20%;
+    width: 280px;
+  }
+  .footer-2 {
+    margin-left: 0%;
+  }
+  .footer-2 h4 {
+    margin-left: 31%;
+  }
+  .footer-2 i {
+    margin-left: 30%;
+  }
+  .footer-3 {
+    margin: 0;
+  }
+  .footer-3 h4 {
+    margin-left: 20%;
+  }
+  .footer-3,
+  span {
+    margin-left: 11%;
+    width: 300px;
+  }
+}
