@@ -102,7 +102,7 @@ a:hover::after {
 }
 
 .card:hover {
-  cursor: wait;
+  cursor: grabbing;
   transform: rotateY(180deg);
   transition: 2s;
 }
@@ -189,28 +189,12 @@ footer h3 {
 }
 
 .footer-1 p {
-  justify-content: center;
-  align-items: center;
+  margin-top: 2px;
 }
 .footer-1 img {
   position: relative;
   image-rendering: optimizeQuality;
   width: 270px;
-}
-
-.footer-2 {
-  margin-left: 40%;
-  margin-top: 30px;
-}
-
-.footer-2 h4 {
-  font-size: 23px;
-  margin-bottom: 30px;
-}
-.footer-2 i {
-  width: 30px;
-  height: 40px;
-  cursor: pointer;
 }
 
 .footer-3 {
@@ -224,7 +208,7 @@ footer h3 {
   margin-bottom: 30px;
 }
 .footer-3 p {
-  height: 50px;
+  height: 60px;
 }
 span {
   font-weight: 900;
@@ -245,24 +229,15 @@ span {
     margin: 19px;
   }
 
+  .card {
+    width: 100px;
+    height: 100px;
+  }
   .footer-1 img {
     margin-left: 16%;
   }
-
-  .footer-2 {
-    display: flex;
-    cursor: pointer;
-    margin-bottom: 30px;
-
-    margin-left: 0;
-  }
-  .footer-2 h4 {
-    position: absolute;
-    margin-left: 118px;
-  }
-  .footer-2 p {
-    margin-top: 70px;
-    margin-left: 20px;
+  .footer-1 p {
+    margin-bottom: 29px;
   }
 
   .footer-3 {
@@ -288,52 +263,17 @@ span {
     margin-top: 40px;
   }
 }
-@media screen and (min-device-width: 500px) and (max-device-width: 1024px) {
-  header {
-    max-width: 300px;
-  }
-  ul {
-    margin-right: 100px;
-  }
-  li {
-    margin: 19px;
-  }
+@media screen and (min-width: 500px) and (max-width: 1024px) {
   .card {
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 200px;
   }
-  .footer-1 {
-    margin: 0;
+  .card-back h1 {
+    font-size: 10px;
+    margin-top: 20px;
   }
-  .footer-1 img {
-    margin-left: 0;
-  }
-
-  .footer-2 {
-    display: flex;
-    cursor: pointer;
-    margin-bottom: 30px;
-
-    margin-left: 0;
-  }
-  .footer-2 h4 {
-    position: absolute;
-    margin-left: 108px;
-    margin-top: 5px;
-  }
-  .footer-2 p {
-    margin-top: 90px;
-    margin-left: 40px;
-  }
-
-  .footer-3 {
-    margin-top: 29px;
-  }
-  .footer-3 h4 {
-    margin-left: 20%;
-    margin-bottom: 60px;
-  }
-  .footer-3 p {
-    width: 300px;
+  .card-back p {
+    font-size: 9px;
+    margin-top: 20px;
   }
 }
