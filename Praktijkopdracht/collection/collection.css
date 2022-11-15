@@ -78,7 +78,7 @@ a:hover::after {
   top: 0;
   background: url("/vendors/images/background.webp") no-repeat center;
   background-size: cover;
-
+  background-attachment: fixed;
   filter: blur(7px);
   z-index: -1;
 }
